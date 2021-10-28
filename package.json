@@ -1,0 +1,30 @@
+{
+  "name": "catchscamjs",
+  "version": "1.0.0",
+  "description": "API for catch scam and phishing links in Discord",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "scam",
+    "discord scam",
+    "phishing",
+    "discord phishing",
+    "links",
+    "discord js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryenDaco/catchscamjs.git"
+  },
+  "author": "Bryen Daco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BryenDaco/catchscamjs/issues"
+  },
+  "homepage": "https://github.com/BryenDaco/catchscamjs#readme"
+}
