@@ -21,12 +21,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BryenDaco/-bryendaco-catchscamjs.git"
+    "url": "git+https://github.com/BryenDaco/-bryendaco-catchscam.js.git"
   },
   "author": "Bryen Daco",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BryenDaco/-bryendaco-catchscamjs/issues"
+    "url": "https://github.com/BryenDaco/-bryendaco-catchscam.js/issues"
   },
-  "homepage": "https://github.com/BryenDaco/-bryendaco-catchscamjs#readme"
+  "homepage": "https://github.com/BryenDaco/-bryendaco-catchscam.js#readme"
 }
