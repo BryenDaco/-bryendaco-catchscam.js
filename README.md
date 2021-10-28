@@ -5,7 +5,7 @@ Catches scam and phishing links in Discord.
 **Example**
 
 ```js
-const catchscams = require("catchscams.js"); // Load Package
+const catchscams = require("@bryendaco/catchscamjs"); // Load Package
 
 let content = `:warning: Hi i claim this nitro for free 3 months lol! try it too. https://dliscord.com/x4Cs7cDt2sdFOf12`
 
