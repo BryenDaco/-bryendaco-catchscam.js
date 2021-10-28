@@ -1,5 +1,5 @@
 {
-  "name": "@bryendaco/catchscamjs",
+  "name": "@bryendaco/catchscam.js",
   "version": "1.0.0",
   "description": "API for catch scam and phishing links in Discord",
   "main": "index.js",
@@ -15,7 +15,9 @@
     "phishing",
     "discord phishing",
     "links",
-    "discord js"
+    "discord js",
+		"catchscam",
+		"catchscam.js"
   ],
   "repository": {
     "type": "git",
