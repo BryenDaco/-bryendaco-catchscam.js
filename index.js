@@ -1,7 +1,8 @@
 const axios = require("axios");
 
 module.exports = async (messageContent) => {
-	const catcscans = await axios.get("https://bryendaco.github.io/catchscams.json");
+	const catcscams = await axios.get("https://bryendaco.github.io/catchscams.json", {timeout: 1000});
+	if (!catcscams) throw Error ("Could not load API");
 	let response;
 
 	for (scamdomains of catcscans.data.scamlinks) {

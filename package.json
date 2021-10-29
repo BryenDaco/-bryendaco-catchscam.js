@@ -1,6 +1,6 @@
 {
 	"name": "@bryendaco/catchscam.js",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "API for catch scam and phishing links in Discord",
 	"main": "index.js",
 	"dependencies": {},
