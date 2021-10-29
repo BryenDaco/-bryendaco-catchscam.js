@@ -2,7 +2,7 @@
 Catches scam and phishing links in Discord.
 
 ## Usage
-**Example**
+- **Example #1 (Common Use)**
 
 ```js
 const catchscamjs = require("@bryendaco/catchscam.js"); // Load Package
@@ -14,4 +14,20 @@ catchscamjs(content).then(console.log);
 
 //if it is a scam returns 'true' - (boolean)
 // if it is not a scam returns 'false' - (boolean)
+```
+
+- **Example #2 (Discord.js Use)**
+```js
+const catchscams = require("@bryendaco/catchscam.js");
+const discord = require('discord.js'); // Version: 13 (discord.js v13)
+
+const client = new discord.Client({intents: [discord.Intents.FLAGS.DIRECT_MESSAGES, discord.Intents.FLAGS.GUILD_MESSAGES]});
+
+client.on('messageCreate', async message => {
+	catchscams(message.content).then(x => {
+		if (x == true) return message.delete();
+	});
+});
+
+client.login("Your-Bot-Token")
 ```
