@@ -1,5 +1,6 @@
 # @bryendaco/catchscam.js
-Catches scam and phishing links in Discord.
+Catches scam and phishing links in Discord.<br>
+If you want to submit a new scam or phishing link, [click here](https://forms.gle/XLbkTduC2i414g3B7)
 
 ## Usage
 - **Example #1 (Common Use)**
