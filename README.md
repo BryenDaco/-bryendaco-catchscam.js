@@ -8,21 +8,24 @@ If you want to submit a new scam or phishing link, [click here](https://forms.gl
 ```js
 const catchscamjs = require("@bryendaco/catchscam.js"); // Load Package
 
-let content = `:warning: Hi i claim this nitro for free 3 months lol! try it too. https://dliscord.com/x4Cs7cDt2sdFOf12`
+let content = ":warning: Hi i claim this nitro for free 3 months lol! try it too. https://dliscord.com/x4Cs7cDt2sdFOf12"
 
 catchscamjs(content).then(console.log);
 // See if there is a Scam or Phishing link in 'content'
 
 //if it is a scam returns 'true' - (boolean)
-// if it is not a scam returns 'false' - (boolean)
+//if it is not a scam returns 'false' - (boolean)
 ```
 
 - **Example #2 (Discord.js Use)**
+
 ```js
 const catchscams = require("@bryendaco/catchscam.js");
 const discord = require('discord.js'); // Version: 13 (discord.js v13)
 
-const client = new discord.Client({intents: [discord.Intents.FLAGS.DIRECT_MESSAGES, discord.Intents.FLAGS.GUILD_MESSAGES]});
+const client = new discord.Client({
+	intents: [ discord.Intents.FLAGS.GUILD_MESSAGES ]
+});
 
 client.on('messageCreate', async message => {
 	catchscams(message.content).then(x => {
@@ -30,5 +33,5 @@ client.on('messageCreate', async message => {
 	});
 });
 
-client.login("Your-Bot-Token")
+client.login("Your-Bot-Token");
 ```

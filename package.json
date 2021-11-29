@@ -1,9 +1,11 @@
 {
 	"name": "@bryendaco/catchscam.js",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "API for catch scam and phishing links in Discord",
 	"main": "index.js",
-	"dependencies": {},
+	"dependencies": {
+		"axios": "^0.24.0"
+	},
 	"devDependencies": {},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
