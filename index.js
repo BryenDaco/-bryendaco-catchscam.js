@@ -24,9 +24,9 @@ function checkScam() {
 
 			}
 			return response;
+		} catch (error) {
+			startToCheckScam();
 		}
-	} catch (error) {
-		startToCheckScam();
 	}
 }
 
